@@ -1,214 +1,214 @@
 [ {
 	"id" : "home",
 	"value" : "home",
-	"name" : "ÏµÍ³Ê×Ò³",
+	"name" : "ç³»ç»Ÿé¦–é¡µ(Home)",
 	"isLeaf" : true
 }, {
 	"id" : "MtoolsGroup",
 	"value" : "MtoolsGroup",
-	"name" : "ÏµÍ³¹ÜÀí",
+	"name" : "ç³»ç»Ÿç®¡ç†(System)",
 	"isLeaf" : false,
 	"child" : [ {
 		"id" : "M002",
 		"value" : "M002",
-		"name" : "²Ëµ¥¹ÜÀí",
+		"name" : "èœå•ç®¡ç†(Menu)",
 		"isLeaf" : true
 	}, {
 		"id" : "M001",
 		"value" : "M001",
-		"name" : "×Öµä¹ÜÀí",
+		"name" : "å­—å…¸ç®¡ç†(Dict)",
 		"isLeaf" : true
 	}, {
 		"id" : "M_Area",
 		"value" : "M_Area",
-		"name" : "ĞĞÕşÇø»®",
+		"name" : "è¡Œæ”¿åŒºåˆ’(Area)",
 		"isLeaf" : true
 	} ]
 }, {
 	"id" : "Code_Man",
 	"value" : "Code_Man",
-	"name" : "³ÌĞòÊ¾Àı",
+	"name" : "ç¨‹åºç¤ºä¾‹(Demo)",
 	"isLeaf" : false,
 	"child" : [ {
 		"id" : "Report_Field_01",
 		"value" : "Report_Field_01",
-		"name" : "±¨±íÖ¸±ê¿â",
+		"name" : "æŠ¥è¡¨æŒ‡æ ‡åº“",
 		"isLeaf" : true
 	}, {
 		"id" : "Report_Field_02",
 		"value" : "Report_Field_02",
-		"name" : "±¨±í01",
+		"name" : "æŠ¥è¡¨01",
 		"isLeaf" : true
 	}, {
 		"id" : "m_newstype",
 		"value" : "m_newstype",
-		"name" : "ĞÂÎÅ·ÖÀà",
+		"name" : "æ–°é—»åˆ†ç±»",
 		"isLeaf" : true
 	}, {
 		"id" : "m_student",
 		"value" : "m_student",
-		"name" : "Ñ§Éú¹ÜÀí",
+		"name" : "å­¦ç”Ÿç®¡ç†",
 		"isLeaf" : true
 	} ]
 }, {
 	"id" : "MAttach",
 	"value" : "MAttach",
-	"name" : "ÉÏ´«¹ÜÀí",
+	"name" : "ä¸Šä¼ ç®¡ç†(Upload)",
 	"isLeaf" : false,
 	"child" : [ {
 		"id" : "MAttachConfig",
 		"value" : "MAttachConfig",
-		"name" : "ÉÏ´«ÅäÖÃ",
+		"name" : "ä¸Šä¼ é…ç½®",
 		"isLeaf" : true
 	}, {
 		"id" : "MAttachment",
 		"value" : "MAttachment",
-		"name" : "¸½¼ş¹ÜÀí",
+		"name" : "é™„ä»¶ç®¡ç†",
 		"isLeaf" : true
 	}, {
 		"id" : "MAttachmentByTable",
 		"value" : "MAttachmentByTable",
-		"name" : "¸½¼şä¯ÀÀ",
+		"name" : "é™„ä»¶æµè§ˆ",
 		"isLeaf" : true
 	} ]
 }, {
 	"id" : "M_portal",
 	"value" : "M_portal",
-	"name" : "ÃÅ»§¹ÜÀí",
+	"name" : "é—¨æˆ·ç®¡ç†(Portal)",
 	"isLeaf" : false,
 	"child" : [ {
 		"id" : "M_portal2",
 		"value" : "M_portal2",
-		"name" : "ÃÅ»§¹ÜÀí",
+		"name" : "é—¨æˆ·ç®¡ç†",
 		"isLeaf" : true
 	}, {
 		"id" : "M_portal_1",
 		"value" : "M_portal_1",
-		"name" : "×é¼ş¹ÜÀí",
+		"name" : "ç»„ä»¶ç®¡ç†",
 		"isLeaf" : true
 	}, {
 		"id" : "M007",
 		"value" : "M007",
-		"name" : "²¿ÃÅÂÛÌ³",
+		"name" : "éƒ¨é—¨è®ºå›",
 		"isLeaf" : false,
 		"child" : [ {
 			"id" : "M003",
 			"value" : "M003",
-			"name" : "½»Á÷ÂÛÌ³",
+			"name" : "äº¤æµè®ºå›",
 			"isLeaf" : true
 		}, {
 			"id" : "M005",
 			"value" : "M005",
-			"name" : "ÂÛÌ³·ÖÀà",
+			"name" : "è®ºå›åˆ†ç±»",
 			"isLeaf" : true
 		}, {
 			"id" : "M005-3",
 			"value" : "M005-3",
-			"name" : "·ÖÀà¹ÜÀí",
+			"name" : "åˆ†ç±»ç®¡ç†",
 			"isLeaf" : true
 		}, {
 			"id" : "M005-2",
 			"value" : "M005-2",
-			"name" : "·ÖÀà¼ÓÔØ",
+			"name" : "åˆ†ç±»åŠ è½½",
 			"isLeaf" : true
 		} ]
 	}, {
 		"id" : "m006",
 		"value" : "m006",
-		"name" : "¸öÈËÍøÅÌ",
+		"name" : "ä¸ªäººç½‘ç›˜",
 		"isLeaf" : false,
 		"child" : [ {
 			"id" : "m006-1",
 			"value" : "m006-1",
-			"name" : "·ÖÀàä¯ÀÀ",
+			"name" : "åˆ†ç±»æµè§ˆ",
 			"isLeaf" : true
 		}, {
 			"id" : "m006-2",
 			"value" : "m006-2",
-			"name" : "Ä¿Â¼ä¯ÀÀ",
+			"name" : "ç›®å½•æµè§ˆ",
 			"isLeaf" : true
 		} ]
 	} ]
 }, {
 	"id" : "SYS_MAN",
 	"value" : "SYS_MAN",
-	"name" : "¶¯Ì¬´úÂë",
+	"name" : "åŠ¨æ€ä»£ç (Code)",
 	"isLeaf" : false,
 	"child" : [ {
 		"id" : "SYS_MAN_TABLE",
 		"value" : "SYS_MAN_TABLE",
-		"name" : "ÒµÎñ±í¹ÜÀí",
+		"name" : "ä¸šåŠ¡è¡¨ç®¡ç†",
 		"isLeaf" : true
 	}, {
 		"id" : "SYS_MAN_RELATION",
 		"value" : "SYS_MAN_RELATION",
-		"name" : "¹ØÏµ±í¹ÜÀí",
+		"name" : "å…³ç³»è¡¨ç®¡ç†",
 		"isLeaf" : true
 	}, {
 		"id" : "Code_Temp",
 		"value" : "Code_Temp",
-		"name" : "Ä£°å¹ÜÀí",
+		"name" : "æ¨¡æ¿ç®¡ç†",
 		"isLeaf" : true
 	}, {
 		"id" : "Code_Suit",
 		"value" : "Code_Suit",
-		"name" : "Ä£°åÌ×¼ş",
+		"name" : "æ¨¡æ¿å¥—ä»¶",
 		"isLeaf" : true
 	}, {
 		"id" : "Report_Main",
 		"value" : "Report_Main",
-		"name" : "Ìî±¨Éè¼Æ",
+		"name" : "å¡«æŠ¥è®¾è®¡",
 		"isLeaf" : true
 	} ]
 }, {
 	"id" : "DemoDemoTree",
 	"value" : "DemoDemoTree",
-	"name" : "³£ÓÃÊ¾Àı",
+	"name" : "å¸¸ç”¨ç¤ºä¾‹",
 	"isLeaf" : true
 }, {
 	"id" : "DemoMulti",
 	"value" : "DemoMulti",
-	"name" : "²¼¾ÖÊ¾Àı",
+	"name" : "å¸ƒå±€ç¤ºä¾‹",
 	"isLeaf" : false,
 	"child" : [ {
 		"id" : "DemoMulti_0",
 		"value" : "DemoMulti_0",
-		"name" : "ºá-µ¥ĞĞË«ÁĞ",
+		"name" : "æ¨ª-å•è¡ŒåŒåˆ—",
 		"isLeaf" : true
 	}, {
 		"id" : "DemoMulti_1",
 		"value" : "DemoMulti_1",
-		"name" : "ºá-µ¥ĞĞ¶àÁĞ",
+		"name" : "æ¨ª-å•è¡Œå¤šåˆ—",
 		"isLeaf" : true
 	}, {
 		"id" : "DemoMulti_2",
 		"value" : "DemoMulti_2",
-		"name" : "ºá-Ë«ĞĞ°Ù·Ö±ÈĞĞ¸ß",
+		"name" : "æ¨ª-åŒè¡Œç™¾åˆ†æ¯”è¡Œé«˜",
 		"isLeaf" : true
 	}, {
 		"id" : "DemoMulti_3",
 		"value" : "DemoMulti_3",
-		"name" : "ºá-Ë«ĞĞµ×ĞĞ¶¨¸ß",
+		"name" : "æ¨ª-åŒè¡Œåº•è¡Œå®šé«˜",
 		"isLeaf" : true
 	}, {
 		"id" : "DemoMulti_4",
 		"value" : "DemoMulti_4",
-		"name" : "ºá-ÈıĞĞ»ìºÏĞĞ¸ß",
+		"name" : "æ¨ª-ä¸‰è¡Œæ··åˆè¡Œé«˜",
 		"isLeaf" : true
 	}, {
 		"id" : "DemoMulti_5",
 		"value" : "DemoMulti_5",
-		"name" : "ºá-×óµ¥ĞĞÓÒË«ĞĞ",
+		"name" : "æ¨ª-å·¦å•è¡Œå³åŒè¡Œ",
 		"isLeaf" : true
 	}, {
 		"id" : "DemoMultiRow_1",
 		"value" : "DemoMultiRow_1",
-		"name" : "×İ-¶àĞĞÍÏ¶¯",
+		"name" : "çºµ-å¤šè¡Œæ‹–åŠ¨",
 		"isLeaf" : true
 	}, {
 		"id" : "DemoMultiRow_5",
 		"value" : "DemoMultiRow_5",
-		"name" : "×İºá-»ìºÏÍÏ¶¯",
+		"name" : "çºµæ¨ª-æ··åˆæ‹–åŠ¨",
 		"isLeaf" : true
 	} ]
 } ]
