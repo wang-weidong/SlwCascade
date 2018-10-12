@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>SlwSelect demo</title>
+<script type="text/javascript" src="jquery-1.7.min.js"></script>
+<script type="text/javascript" src="../slw.js"></script>
+<script type="text/javascript" src="../slw.select.min.js"></script>
+<script type="text/javascript" src="../slw.cascade.js"></script>
+<link rel="stylesheet" href="../style/cascade.css" type="text/css" />
+</head>
+
+<body>
+
+	<div style="margin: 20px">
+		<h1>SlwCascase Demo</h1>
+		<table class="table table-bordered editTable form-group-sm">
+			<thead>
+				<tr>
+					<th colspan="12">表单</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="firstRow">
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+					<td colspan="1" class="col-md-1"></td>
+				</tr>
+
+				<tr>
+					<td class="tdLable" colspan="3">一次加载级联3</td>
+					<td colspan="3"><input class="form-control" placeholder="请选择菜单" id="menu3" type="text" value="" /></td>
+					<td colspan="3"><input class="form-control" placeholder="请选择子菜单" id="menu4" type="text" /></td>
+					<td colspan="3"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+	<script>
+		$(function() {
+			var arrayMenu2 = [ $('#menu3'), $('#menu4') ];
+			Slw.cascade(arrayMenu2, {
+				url : "data.json",
+				selectInputQuery : false
+			});
+			
+		});
+	</script>
+</body>
+</html>
